@@ -7,7 +7,7 @@ const path = require('path')
 app.use(cors());
 
 
-mongoDB();
+// mongoDB();
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
