@@ -33,4 +33,4 @@ const mongoDB = async () => {
 };
 
 
-module.exports = mongoDB;
+module.exports = mongoDB();
